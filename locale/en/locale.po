@@ -21,7 +21,7 @@ msgstr "Enter a custom suffix pattern for each publication type. The custom suff
 "<code>%c</code> Chapter ID<br> "
 "<code>%f</code> Publication Format ID<br> "
 "<span style='color: red;'><code>%C(%m, 4)</code> First 4 characteres of CRC32c(Monograph ID)<br></span> "
-"<span style='color: red;'><code>%C(%m.%c, 6)</code> First 6 characteres of CRC32c(Monograph ID + Chapter ID)<br></span> "
+"<span style='color: red;'><code>%C(%m.%c, 6)</code> First 6 characteres of CRC32c(Monograph ID + '.' + Chapter ID)<br></span> "
 "<code>%s</code> File ID<br> "
 "<code>%x</code> Custom Identifier<br><br> "
 "Beware that custom suffix patterns often lead to problems generating and depositing DOIs. When using a custom suffix pattern, carefully test that editors can generate DOIs and deposit them to a registration agency like Crossref. "
